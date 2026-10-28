@@ -19,15 +19,15 @@ Run these from the project folder:
 
 | Command | What it does |
 | --- | --- |
-| `cargo run --quiet` | Show NOW and the first NEXT task. |
-| `cargo run --quiet -- --done` | Add NOW to `done.txt` and move the first NEXT task into NOW. |
-| `cargo run --quiet -- --undo` | Undo the latest completion. |
-| `cargo run --quiet -- --skip` | Swap NOW with the first NEXT task. |
+| `cargo run` | Show NOW and the first NEXT task. |
+| `cargo run -- --done` | Add NOW to `done.txt` and move the first NEXT task into NOW. |
+| `cargo run -- --undo` | Undo the latest completion. |
+| `cargo run -- --skip` | Swap NOW with the first NEXT task. |
 
 `--skip` does not add anything to `done.txt`.
 
 ## Demo
 
-The small Zed terminal setup (screenshot from an earlier version of the display):
+The task list in a small Zed terminal window:
 
 ![Daily Todo in a small Zed terminal](assets/demo.png)
